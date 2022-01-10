@@ -102,7 +102,7 @@
     </style>
   </head>
   <body>
-    <strong>Open DevTools in Chrome and paste the following. It should display 7 which is the result from calling C function int_sqrt
+    <strong>Open DevTools Console in Chrome and paste the following. It should display 7 which is the result from calling C function int_sqrt
 	</strong>
 	<pre>
 	// Call C from JavaScript
@@ -112,6 +112,13 @@ var result = Module.ccall('int_sqrt', // name of C function
   [50]); // arguments
   result;
 	</pre>
+	
+	The result should be like in the following screenshot:
+	
+	<br />
+	
+	<img src="res.png"></img>
+	
 
     <script async type="text/javascript" src="function.js"></script>
   </body>
